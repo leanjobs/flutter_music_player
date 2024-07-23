@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:music_player/widgets/SongsLikeWidget.dart';
 
 class LikedScreen extends StatelessWidget {
   const LikedScreen({super.key});
@@ -57,7 +56,7 @@ class LikedScreen extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 20),
-              SongsLikeWidget()
+             
             ],
           ),
         ),

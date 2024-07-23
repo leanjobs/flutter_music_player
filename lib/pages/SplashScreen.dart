@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:music_player/pages/OnBoardingScreen.dart';
-import 'package:music_player/pages/PreviewScreen.dart';
+import 'package:MyMusic/pages/HomeScreen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -23,7 +22,7 @@ class _SplashScreenState extends State<SplashScreen> {
     return Timer(durasiSplash, () {
       //pindah ke halaman home
       Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (_) {
-        return OnBoardingScreen();
+        return HomeScreen();
       }));
     });
   }

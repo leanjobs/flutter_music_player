@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:music_player/widgets/SearchWidget.dart';
 
 class SearchScreen extends StatelessWidget {
   const SearchScreen({super.key});
@@ -74,9 +73,7 @@ class SearchScreen extends StatelessWidget {
                   ],
                 ),
               ),
-              SizedBox(height: 20),
-              SearchWidget()
-            ],
+              SizedBox(height: 20)            ],
           ),
         ),
       ),

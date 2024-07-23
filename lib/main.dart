@@ -1,17 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:music_player/navigationBar/BottomBar.dart';
-import 'package:music_player/pages/ArtistScreen.dart';
-import 'package:music_player/pages/GenreScreen.dart';
-import 'package:music_player/pages/MoreArtistScreen.dart';
-import 'package:music_player/pages/HomeScreen.dart';
-import 'package:music_player/pages/LikedScreen.dart';
-import 'package:music_player/pages/MoreArtistScreen.dart';
-import 'package:music_player/pages/MusicScreen.dart';
-import 'package:music_player/pages/ProfileScreen.dart';
-import 'package:music_player/pages/SearchScreen.dart';
-import 'package:music_player/pages/SplashScreen.dart';
-import 'package:music_player/previews/Preview.dart';
-import 'package:music_player/previews/Preview3.dart';
+import 'package:MyMusic/pages/HomeScreen.dart';
+import 'package:MyMusic/pages/LikedScreen.dart';
+import 'package:MyMusic/pages/MusicScreen.dart';
+import 'package:MyMusic/pages/SearchScreen.dart';
+import 'package:MyMusic/pages/SplashScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,7 +22,6 @@ class MyApp extends StatelessWidget {
       ),
       routes: {
         "/": (context) => SplashScreen(),
-        "preview3": (context) => Preview3(),
       },
     );
   }
